@@ -29,40 +29,55 @@
 <!-- Start main section -->
 <main>
   <!-- Stage -->
-  <section class="container bg-light">
+  <section class="container-fluid bg-light">
     <h1>Carina Menke</h1>
-    <img src="https://images.unsplash.com/photo-1573496358007-6fe62e3d9010?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="Carina Menke">
+    <img class="img-fluid" src="https://images.unsplash.com/photo-1573496358007-6fe62e3d9010?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="Carina Menke">
     <p>I am a web developer...</p>
     <a href="example@example.de">example@example.de</a>
     <a href="https://github.com/carinamenke">Github</a>
     <a href="https://www.linkedin.com/in/carina-menke-a860542b/">Linkedin</a>
     <a href="https://codepen.io/carinamenke">CodePen</a>
-    <button href="id">About me</button>
+    <br>
+    <button type="button" class="btn btn-info" href="id">About me</button>
   </section>
 
   <!-- About me -->
-  <section class="container bg-white">
+  <section class="container-fluid bg-white">
     <h2>About me</h2>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A consectetur voluptates magni rerum alias iure cumque repellat repellendus non. Similique.</p>
-    <section>
-      <img src="https://source.unsplash.com/random" alt="Frontend">
-      <h3>Frontend</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ratione!</p>
-    </section>
-    <section>
-      <img src="https://source.unsplash.com/random" alt="Backend">
-      <h3>Backend</h3>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, temporibus!</p>
-    </section>
-    <section>
-      <img src="https://source.unsplash.com/random" alt="UI Design">
-      <h3>UI Design</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, fuga.</p>
-    </section>
+
+      <div class="card-deck">
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://source.unsplash.com/random" class="card-img-top" alt="Frontend";">
+          <div class="card-body">
+            <h3>Frontend</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ratione!</p>
+          </div>
+        </div>
+  
+        <div class="card" style="width: 18rem;">
+          <img src="https://source.unsplash.com/random" class="card-img-top" alt="Backend">
+          <div class="card-body">
+            <h3>Backend</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, temporibus!</p>
+          </div>
+        </div>
+  
+        <div class="card" style="width: 18rem;">
+          <img src="https://source.unsplash.com/random" class="card-img-top" alt="UI Design">
+          <div class="card-body">
+            <h3>UI Design</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, fuga.</p>
+          </div>
+        </div>
+        
+      </div>
+
   </section>
 
   <!-- Skills -->
-  <section class="container bg-light">
+  <section class="container-fluid bg-light">
     <h2>Skills</h2>
     <span class="badge badge-primary">HTML</span>
     <span class="badge badge-primary">CSS</span>
@@ -73,7 +88,7 @@
   </section>
 
   <!-- References -->
-  <section class="container bg-white">
+  <section class="container-fluid bg-white">
     <h2>Projects & References</h2>
     <span class="badge badge-primary">STIHL</span>
     <span class="badge badge-primary">HUGO BOSS</span>
@@ -83,7 +98,7 @@
   </section>
 
   <!-- Bio -->
-  <section class="container bg-light">
+  <section class="container-fluid bg-light">
     <h2>Bio</h2>
     <section>
       <h3> 01.2020 - 03.2020: neue fische web developer Bootcamp</h3>
@@ -104,7 +119,7 @@
   </section>
 
   <!-- Contact -->
-  <section class="container bg-white">
+  <section class="container-fluid bg-white">
     <h2>Contact Details</h2>
     <h3>Email address</h3>
     <p>example@example.de</p>
@@ -116,7 +131,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="container bg-dark text-light">
+  <footer class="container-fluid bg-dark text-light">
     <small>&copy; 2020</small>
   </footer>
 </main>
