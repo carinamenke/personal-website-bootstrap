@@ -10,39 +10,58 @@
 <body>
 
 <!-- Header with navigation -->
-<header>
-  <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <a class="nav-link text-light" href="#">About me</a>
-        <a class="nav-link text-light" href="#">Skills</a>
-        <a class="nav-link text-light" href="#">Projects & References</a>
-        <a class="nav-link text-light" href="#">Bio</a>
-        <a class="nav-link text-light" href="#">Contact</a>
-    </div>        
-  </nav>
-</header>
+<nav class="navbar sticky-top navbar-expand-sm navbar-light shadow-sm bg-white rounded">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <a class="nav-link text-dark text-right" href="#About_me">About me</a>
+    <a class="nav-link text-dark text-right" href="#Skills">Skills</a>
+    <a class="nav-link text-dark text-right" href="#Projects_References">Projects & References</a>
+    <a class="nav-link text-dark text-right" href="#Bio">Bio</a>
+    <a class="nav-link text-dark text-right" href="#Contact">Contact</a>
+  </div>        
+</nav>
+
 
 <!-- Start main section -->
 <main>
   <!-- Stage -->
-  <section class="container-fluid bg-light">
-    <h1>Carina Menke</h1>
+<div class="jumbotron bg-white px-0" style="background-image:url('/images/CarinaMenke.png'); background-repeat:no-repeat; background-size:cover; ">
+  <div class="text-white pt-5 pl-5">
+    <h1 class="display-4">Carina Menke</h1>
+    <p class="lead">I am a web developer...</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nulla natus accusantium mollitia obcaecati, distinctio debitis aspernatur adipisci facilis nesciunt.</p>
+    <a href="mailto:carina-menke@email.com">carina-menke@email.com</a>
+      <br>
+    <img src="/images/GitHub-Mark-64px.png" alt="Github" height="18" width="18" class="mr-1">
+    <a href="https://github.com/carinamenke">Github</a>
+    <img src="/images/iconmonstr-linkedin-3.svg" alt="Linkedin" height="18" width="18" class="mr-1">
+    <a href="https://www.linkedin.com/in/carina-menke-a860542b/">Linkedin</a>
+    <img src="/images/Codepen-logo.png" alt="CodePen" height="18" width="18" class="mr-1">
+    <a href="https://codepen.io/carinamenke">CodePen</a>
+      <br><br>
+    <a class="btn btn-info btn-lg" href="#About_me" role="button">Learn more about me</a>
+  </div>
+</div>
+  
+  <!-- <section class="container-fluid bg-white pt-2 pb-5 px-0 text-center">
     <img class="img-fluid" src="https://images.unsplash.com/photo-1573496358007-6fe62e3d9010?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="Carina Menke">
+    <br><br>
+    <h1>Carina Menke</h1>
     <p>I am a web developer...</p>
     <a href="example@example.de">example@example.de</a>
+    <br>
     <a href="https://github.com/carinamenke">Github</a>
     <a href="https://www.linkedin.com/in/carina-menke-a860542b/">Linkedin</a>
     <a href="https://codepen.io/carinamenke">CodePen</a>
-    <br>
-    <button type="button" class="btn btn-info" href="id">About me</button>
-  </section>
+    <br><br>
+    <a type="button" class="btn btn-info" href="#About_me">About me</a>
+  </section> -->
 
-  <!-- About me -->
-  <section class="container-fluid bg-white">
+  <!-- About me Section -->
+  <section id="About_me"class="container-fluid bg-white py-5">
     <h2>About me</h2>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A consectetur voluptates magni rerum alias iure cumque repellat repellendus non. Similique.</p>
 
@@ -76,63 +95,140 @@
 
   </section>
 
-  <!-- Skills -->
-  <section class="container-fluid bg-light">
+
+
+  <!-- Skills Section -->
+  <section id="Skills" class="container-fluid bg-light py-5">
     <h2>Skills</h2>
-    <span class="badge badge-primary">HTML</span>
-    <span class="badge badge-primary">CSS</span>
-    <span class="badge badge-primary">JavaScript</span>
-    <span class="badge badge-primary">Scrum</span>
-    <span class="badge badge-primary">Design Thinking</span>
-    <span class="badge badge-primary">Sketch</span>
+    <span class="badge badge-info p-3">HTML</span>
+    <span class="badge badge-info p-3">CSS</span>
+    <span class="badge badge-info p-3">JavaScript</span>
+    <span class="badge badge-info p-3">Scrum</span>
+    <span class="badge badge-info p-3">Design Thinking</span>
+    <span class="badge badge-info p-3">Sketch</span>
   </section>
 
-  <!-- References -->
-  <section class="container-fluid bg-white">
+
+
+  <!-- Project & Reference Section -->
+  <section id="Projects_References" class="container-fluid bg-white py-5">
     <h2>Projects & References</h2>
-    <span class="badge badge-primary">STIHL</span>
-    <span class="badge badge-primary">HUGO BOSS</span>
-    <span class="badge badge-primary">neue fische</span>
-    <span class="badge badge-primary">Jacadi</span>
-    <span class="badge badge-primary">Petit Bateau</span>
+
+    <div class="card-columns">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title h6">Company XY</h3>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/images/HugoBoss.png" class="card-img-top" alt="HugoBoss">
+        <div class="card-body">
+          <h3 class="card-title h6">Hugo Boss</h3>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title h6">Jacadi</h3>
+          <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title h6">Company XY</h3>
+          <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title h6">Company XY</h3>
+          <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title h6">Company XY</h3>
+          <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+        </div>
+      </div>
+    </div>
+
+
   </section>
 
   <!-- Bio -->
-  <section class="container-fluid bg-light">
-    <h2>Bio</h2>
-    <section>
-      <h3> 01.2020 - 03.2020: neue fische web developer Bootcamp</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, obcaecati.</p>
-    </section>
-    <section>
-      <h3>05.2018 - 12.2019: STIHL</h3>
-      <p>Quam in cum nulla iusto fugit illo ad excepturi nobis!</p>
-    </section>
-    <section>
-      <h3>07.2015 - 04.2018: HUGO BOSS</h3>
-      <p>Cumque sequi illum exercitationem numquam vitae officiis. Alias, odio qui.</p>
-    </section>
-    <section>
-      <h3>09.2013 - 06.2015: Jacadi</h3>
-      <p>Ut nemo iusto quia, consectetur modi reprehenderit est corporis totam.</p>
-    </section>
+  <section id="Bio" class="container-fluid bg-light py-5">  
+  <h2>Bio</h2>
+    <dl>
+        <dt> 01.2020 - 03.2020: neue fische web developer Bootcamp</dt>
+        <dl>
+          <ul>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+          </ul>
+        </dl>
+        <dt>05.2018 - 12.2019: STIHL</dt>
+        <dl>
+          <ul>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+          </ul>
+        </dl>
+        <dt>07.2015 - 04.2018: HUGO BOSS</dt>
+        <dl>
+          <ul>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+          </ul>
+        </dl>
+        <dt>09.2013 - 06.2015: Jacadi</dt>
+        <dl>
+          <ul>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+          </ul>
+        </dl>
+    </dl>
   </section>
 
-  <!-- Contact -->
-  <section class="container-fluid bg-white">
+  <!-- Contact Section -->
+  <section id="Contact" class="container-fluid bg-white py-5">
     <h2>Contact Details</h2>
-    <h3>Email address</h3>
-    <p>example@example.de</p>
-    <h3>phone number</h3>
-    <p>672816378632</p>
-    <a href="https://github.com/carinamenke">Github</a>
-    <a href="https://www.linkedin.com/in/carina-menke-a860542b/">Linkedin</a>
-    <a href="https://codepen.io/carinamenke">CodePen</a>
+    
+    <div class="row">
+      <div class="col-sm-4">
+        <address>Carina Menke<br>Mansteinstraße 100<br>20255 Hamburg<br>Germany</address>
+      </div>
+      
+      <div class="col-sm-4">
+        <p class="font-weight-bold">Email <a class="font-weight-normal"href="mailto:carina-menke@email.com">carina-menke@email.com</a><p/>
+        <p class="font-weight-bold">Mobile <a class="font-weight-normal"href="tel:672816378632">672816378632</a><p/>
+      </div>
+      
+      <div class="col-sm-4">
+        <img src="/images/GitHub-Mark-64px.png" alt="Github" height="18" width="18" class="mr-1">
+        <a href="https://github.com/carinamenke">Github</a>
+          <br>
+        <img src="/images/iconmonstr-linkedin-3.svg" alt="Linkedin" height="18" width="18" class="mr-1">
+        <a href="https://www.linkedin.com/in/carina-menke-a860542b/">Linkedin</a>
+          <br>
+        <img src="/images/Codepen-logo.png" alt="CodePen" height="18" width="18" class="mr-1">
+        <a href="https://codepen.io/carinamenke">CodePen</a>
+      </div>
+    </div>
+
   </section>
 
   <!-- Footer -->
-  <footer class="container-fluid bg-dark text-light">
-    <small>&copy; 2020</small>
+  <footer class="container-fluid bg-dark text-light py-2">
+    <small class="mr-5">&copy; 2020</small>
+    <small><a class="text-light mr-3" href="#">Imprint</a></small>
+    <small><a class="text-light" href="#">Privacy Policy</a></small>
   </footer>
 </main>
 
