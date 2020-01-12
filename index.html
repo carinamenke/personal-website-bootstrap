@@ -10,7 +10,7 @@
 <body>
 
 <!-- Header with navigation -->
-<nav class="navbar sticky-top navbar-expand-sm navbar-light shadow-sm bg-white rounded">
+<nav class="navbar sticky-top navbar-expand-sm navbar-light shadow-sm bg-white">
   <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -28,21 +28,22 @@
 <!-- Start main section -->
 <main>
   <!-- Stage -->
-<div class="jumbotron bg-white px-0" style="background-image:url('/images/CarinaMenke.png'); background-repeat:no-repeat; background-size:cover; ">
-  <div class="text-white pt-5 pl-5">
-    <h1 class="display-4">Carina Menke</h1>
-    <p class="lead">I am a web developer...</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nulla natus accusantium mollitia obcaecati, distinctio debitis aspernatur adipisci facilis nesciunt.</p>
-    <a href="mailto:carina-menke@email.com">carina-menke@email.com</a>
-      <br>
-    <img src="/images/GitHub-Mark-64px.png" alt="Github" height="18" width="18" class="mr-1">
-    <a href="https://github.com/carinamenke">Github</a>
-    <img src="/images/iconmonstr-linkedin-3.svg" alt="Linkedin" height="18" width="18" class="mr-1">
-    <a href="https://www.linkedin.com/in/carina-menke-a860542b/">Linkedin</a>
-    <img src="/images/Codepen-logo.png" alt="CodePen" height="18" width="18" class="mr-1">
-    <a href="https://codepen.io/carinamenke">CodePen</a>
-      <br><br>
-    <a class="btn btn-info btn-lg" href="#About_me" role="button">Learn more about me</a>
+<div class="jumbotron bg-white text-white px-0" style="background-image:url('/images/CarinaMenke.png'); background-repeat:no-repeat; background-size:cover; ">
+    <div class=px-3>
+      <h1 class="display-4">Carina Menke</h1>
+      <p class="lead">I am a web developer...</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nulla natus accusantium mollitia obcaecati, distinctio debitis aspernatur adipisci facilis nesciunt.</p>
+        <a class="text-white" href="mailto:carina-menke@email.com">carina-menke@email.com</a>
+          <br>
+        <img src="/images/GitHub-Mark-64px.png" target="_blank"alt="Github" height="18" width="18">
+        <a class="text-white" href="https://github.com/carinamenke" target="_blank">Github</a>
+        <img src="/images/iconmonstr-linkedin-3.svg" alt="Linkedin" height="18" width="18" class="ml-2">
+        <a class="text-white" href="https://www.linkedin.com/in/carina-menke-a860542b/" target="_blank">Linkedin</a>
+        <img src="/images/Codepen-logo.png" alt="CodePen" height="18" width="18" class="ml-2">
+        <a class="text-white" href="https://codepen.io/carinamenke" target="_blank">CodePen</a>
+        <br><br>
+      <a class="btn btn-primary btn-lg" href="#About_me" role="button">Learn more about me</a>
+    </div>
   </div>
 </div>
   
@@ -61,32 +62,33 @@
   </section> -->
 
   <!-- About me Section -->
-  <section id="About_me"class="container-fluid bg-white py-5">
+  <section id="About_me"class="container-fluid bg-white pb-5">
+    
     <h2>About me</h2>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A consectetur voluptates magni rerum alias iure cumque repellat repellendus non. Similique.</p>
 
       <div class="card-deck">
 
         <div class="card" style="width: 18rem;">
-          <img src="https://source.unsplash.com/random" class="card-img-top" alt="Frontend";">
+          <img src="/images/Frontend.jpg" class="card-img-top" alt="Frontend";">
           <div class="card-body">
-            <h3>Frontend</h3>
+            <h3>Frontend Development</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ratione!</p>
           </div>
         </div>
   
         <div class="card" style="width: 18rem;">
-          <img src="https://source.unsplash.com/random" class="card-img-top" alt="Backend">
+          <img src="/images/Backend.jpg" class="card-img-top" alt="Backend">
           <div class="card-body">
-            <h3>Backend</h3>
+            <h3>Backend Development</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, temporibus!</p>
           </div>
         </div>
   
         <div class="card" style="width: 18rem;">
-          <img src="https://source.unsplash.com/random" class="card-img-top" alt="UI Design">
+          <img src="/images/project_management.jpg" class="card-img-top" alt="Project Management">
           <div class="card-body">
-            <h3>UI Design</h3>
+            <h3>Project Management</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, fuga.</p>
           </div>
         </div>
@@ -99,142 +101,233 @@
 
   <!-- Skills Section -->
   <section id="Skills" class="container-fluid bg-light py-5">
-    <h2>Skills</h2>
-    <span class="badge badge-info p-3">HTML</span>
-    <span class="badge badge-info p-3">CSS</span>
-    <span class="badge badge-info p-3">JavaScript</span>
-    <span class="badge badge-info p-3">Scrum</span>
-    <span class="badge badge-info p-3">Design Thinking</span>
-    <span class="badge badge-info p-3">Sketch</span>
+    
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="h5">Skills</h3>
+          <span class="badge badge-primary p-2 mb-2">HTML</span>
+          <span class="badge badge-primary p-2 mb-2">CSS</span>
+          <span class="badge badge-primary p-2 mb-2">JavaScript</span>
+          <span class="badge badge-primary p-2 mb-2">React JS</span>
+          <span class="badge badge-primary p-2 mb-2">Git</span>
+          <span class="badge badge-primary p-2 mb-2">Scrum</span>
+          <span class="badge badge-primary p-2 mb-2">Kanban</span>
+          <span class="badge badge-primary p-2 mb-2">Project Management</span>
+          <span class="badge badge-primary p-2 mb-2">Design Thinking</span>
+        </div>
+        
+        <div class="col-md-4 mt-2">
+          <h3 class="h5">Tools</h3>
+          <span class="badge badge-primary p-2 mb-2">Jira & Confluence</span>
+          <span class="badge badge-primary p-2 mb-2">Visual Studio Code</span>
+          <span class="badge badge-primary p-2 mb-2">Sketch</span>
+          <span class="badge badge-primary p-2 mb-2">MongoDB</span>
+          <span class="badge badge-primary p-2 mb-2">Google Analytics</span>
+        </div>
+  
+        <div class="col-md-4 mt-2">
+          <h3 class="h5">Languages</h3>
+            <div class="progress mb-2" style="height: 20px;">
+              <img src="/images/flag_de.png" alt="German" height="18" width="18" class="mr-1">
+              <div class="progress-bar bg-secondary font-weight-bold" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Native speaker</div>
+            </div>
+            <div class="progress mb-2" style="height: 20px;">
+              <img src="/images/flag_uk.png" alt="German" height="18" width="18" class="mr-1">
+              <div class="progress-bar bg-secondary font-weight-bold" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Fluent speaker</div>
+            </div>
+            <div class="progress" style="height: 20px;">
+              <img src="/images/flag_fr.png" alt="German" height="18" width="18" class="mr-1">
+              <div class="progress-bar bg-secondary font-weight-bold" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Fluent speaker</div>
+            </div>
+        </div>
+      </div>
+
   </section>
 
 
 
   <!-- Project & Reference Section -->
   <section id="Projects_References" class="container-fluid bg-white py-5">
+    
     <h2>Projects & References</h2>
 
-    <div class="card-columns">
+    <div class="card-columns mt-3">
       <div class="card">
+        <img src="/images/Project_ABC.jpg" class="card-img-top" alt="Project ABC">
         <div class="card-body">
-          <h3 class="card-title h6">Company XY</h3>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h3 class="card-title h6">Project ABC</h3>
+          <p class="card-text">Website and mobile app development for company ABC.</p>
+          <a href="#" class="card-link">Find out more</a>
         </div>
       </div>
       <div class="card">
         <img src="/images/HugoBoss.png" class="card-img-top" alt="HugoBoss">
         <div class="card-body">
           <h3 class="card-title h6">Hugo Boss</h3>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text">Release management for the brands' global online shops.</p>
+          <a href="#" class="card-link">Find out more</a>
         </div>
       </div>
       <div class="card">
+        <img src="/images/Reference_Jacadi.png" class="card-img-top" alt="Jacadi">
         <div class="card-body">
           <h3 class="card-title h6">Jacadi</h3>
-          <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+          <p class="card-text">Management of the brands' German online shop.</p>
+          <a href="#" class="card-link">Find out more</a>
         </div>
       </div>
       <div class="card">
+        <img src="/images/Reference_STIHL.png" class="card-img-top" alt="STIHL">
         <div class="card-body">
-          <h3 class="card-title h6">Company XY</h3>
-          <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+          <h3 class="card-title h6">STIHL</h3>
+          <p class="card-text">Digital strategy and frontend product ownership for the brand's new online shop.</p>
+          <a href="#" class="card-link">Find out more</a>
         </div>
       </div>
       <div class="card">
+        <img src="/images/Project_XYZ.jpg" class="card-img-top" alt="Project XYZ">
         <div class="card-body">
-          <h3 class="card-title h6">Company XY</h3>
-          <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+          <h3 class="card-title h6">Project XYZ</h3>
+          <p class="card-text">Website development for company XYZ.</p>
+          <a href="#" class="card-link">Find out more</a>
         </div>
       </div>
       <div class="card">
+        <img src="/images/Reference_PetitBateau.png" class="card-img-top" alt="Petit Bateau">
         <div class="card-body">
-          <h3 class="card-title h6">Company XY</h3>
-          <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+          <h3 class="card-title h6">Petit Bateau</h3>
+          <p class="card-text">Coordination of online marketing activities for the brand's European online shops.</p>
+          <a href="#" class="card-link">Find out more</a>
         </div>
       </div>
     </div>
 
-
   </section>
 
-  <!-- Bio -->
+
+  <!-- Bio Section-->
   <section id="Bio" class="container-fluid bg-light py-5">  
-  <h2>Bio</h2>
-    <dl>
-        <dt> 01.2020 - 03.2020: neue fische web developer Bootcamp</dt>
-        <dl>
-          <ul>
-            <li>Lorem ipsum dolor sit.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-          </ul>
-        </dl>
-        <dt>05.2018 - 12.2019: STIHL</dt>
-        <dl>
-          <ul>
-            <li>Lorem ipsum dolor sit.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-          </ul>
-        </dl>
-        <dt>07.2015 - 04.2018: HUGO BOSS</dt>
-        <dl>
-          <ul>
-            <li>Lorem ipsum dolor sit.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-          </ul>
-        </dl>
-        <dt>09.2013 - 06.2015: Jacadi</dt>
-        <dl>
-          <ul>
-            <li>Lorem ipsum dolor sit.</li>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-          </ul>
-        </dl>
-    </dl>
+    <h2 class="mb-3">Bio</h2>
+    
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <h3 class="h5">Work</h3>
+        <div class="list-group">
+          
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">E-Commerce Project Manager & Product Owner</h5>
+              <small>May 2018 - Dec 2019</small>
+            </div>
+            <p class="mb-1">Sub-project leader Frontend for launch of new end-customer online shop in Germany</p>
+            <small>Andreas STIHL AG & Co. KG, Fellbach - Germany</small>
+          </a>
+
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">E-Commerce Project Manager</h5>
+              <small class="text-muted">Jul 2015 - Dec 2017</small>
+            </div>
+            <p class="mb-1">Release and project management for the brands' global online shops</p>
+            <small class="text-muted">Hugo Boss AG, Metzingen - Germany</small>
+          </a>
+
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">E-Commerce Manager Germany</h5>
+              <small class="text-muted">Sep 2013 - Jul 2015</small>
+            </div>
+            <p class="mb-1">Management of the brands' German online shop</p>
+            <small class="text-muted">Jacadi SA, Paris - France</small>
+          </a>
+
+        </div>
+      </div>
+    
+      <div class="col-md-6">
+        <div class="list-group">
+          <h3 class="h5">Education</h3>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">"Neuefische Web Development Bootcamp</h5>
+              <small>Jan 2020 - Mar 2020</small>
+            </div>
+            <p class="mb-1">Intensive web development training</p>
+            <small>Neuefische GmbH, Hamburg - Germany</small>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">M.Sc. Marketing</h5>
+              <small class="text-muted">Sep 2012 - Aug 2013</small>
+            </div>
+            <small class="text-muted">Napier University, Edinburgh - Scotland</small>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">B.A. Int. Management & Marketing</h5>
+              <small class="text-muted">Sep 2010 - Jun 2012</small>
+            </div>
+            <p class="mb-1">Franco-German double-degree program</p>
+            <small class="text-muted">Kedge Business School, Marseille - France</small>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">B.A. Int. Management</h5>
+              <small class="text-muted">Oct 2008 - Aug 2010</small>
+            </div>
+            <p class="mb-1">Franco-German double-degree program</p>
+            <small class="text-muted">University of Applied Sciences, Bremen - Germany</small>
+          </a>
+        </div>
+      </div>
+    </div>
+  
   </section>
+
 
   <!-- Contact Section -->
-  <section id="Contact" class="container-fluid bg-white py-5">
+  <section id="Contact" class="container-fluid bg-white pt-5 pb-4">
     <h2>Contact Details</h2>
     
     <div class="row">
       <div class="col-sm-4">
-        <address>Carina Menke<br>Mansteinstraße 100<br>20255 Hamburg<br>Germany</address>
+        <address>Carina Menke<br>Hauptstraße 100<br>20000 Hamburg<br>Germany</address>
       </div>
       
       <div class="col-sm-4">
-        <p class="font-weight-bold">Email <a class="font-weight-normal"href="mailto:carina-menke@email.com">carina-menke@email.com</a><p/>
+        <p class="font-weight-bold">Email <a class="font-weight-normal"href="mailto:carina-menke@email.com">carina-menke@email.com<a></p>
         <p class="font-weight-bold">Mobile <a class="font-weight-normal"href="tel:672816378632">672816378632</a><p/>
       </div>
       
       <div class="col-sm-4">
         <img src="/images/GitHub-Mark-64px.png" alt="Github" height="18" width="18" class="mr-1">
-        <a href="https://github.com/carinamenke">Github</a>
+        <a href="https://github.com/carinamenke" target="_blank">Github</a>
           <br>
         <img src="/images/iconmonstr-linkedin-3.svg" alt="Linkedin" height="18" width="18" class="mr-1">
-        <a href="https://www.linkedin.com/in/carina-menke-a860542b/">Linkedin</a>
+        <a href="https://www.linkedin.com/in/carina-menke-a860542b/" target="_blank">Linkedin</a>
           <br>
         <img src="/images/Codepen-logo.png" alt="CodePen" height="18" width="18" class="mr-1">
-        <a href="https://codepen.io/carinamenke">CodePen</a>
+        <a href="https://codepen.io/carinamenke" target="_blank">CodePen</a>
       </div>
     </div>
-
+    <small><a class="text-dark font-weight-bold float-right" href="#">Back to top &#8679;</a></small>
   </section>
+
 
   <!-- Footer -->
   <footer class="container-fluid bg-dark text-light py-2">
-    <small class="mr-5">&copy; 2020</small>
-    <small><a class="text-light mr-3" href="#">Imprint</a></small>
+    <small class="mr-2">&copy; 2020 Carina Menke</small>
+    <small><a class="text-light mr-2" href="#">Imprint</a></small>
     <small><a class="text-light" href="#">Privacy Policy</a></small>
   </footer>
 </main>
 
+
 <!-- Bootstrap, jQuery & Popper.js scripts -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
