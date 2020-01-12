@@ -12,7 +12,7 @@
 <!-- Start of Navigation -->
 <nav class="navbar sticky-top navbar-expand-sm navbar-light shadow-sm bg-white">
   <h1 class="my-0 h3">
-    <a class="navbar-brand display-1 text-uppercase" href="#">Carina Menke</a>
+    <a class="navbar-brand display-1 text-uppercase mr-5" href="#">Carina Menke</a>
   </h1>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -42,44 +42,59 @@
 <!-- Start of main section -->
 <main>
 
-<!-- Start of Stage Section-->
-<div class="jumbotron bg-white text-white px-0" style="background-image:url('/images/CarinaMenke.png'); background-repeat:no-repeat; background-size:cover; ">
-    <div class=px-3>
-      <h2 class="h3 font-weight-light">Hi, I am Carina.</h2>
-      <p>As a web developer and project manager I can help you build your website or mobile app. I am available for freelance work, so if you like my portfolio, feel free to reach out to me:</p>
-        <a class="text-white" href="mailto:carina-menke@email.com">carina-menke@email.com</a>
-          <br>
-        <img src="/images/GitHub-Mark-64px.png" target="_blank"alt="Github" height="18" width="18">
-        <a class="text-white" href="https://github.com/carinamenke" target="_blank">Github</a>
-        <img src="/images/iconmonstr-linkedin-3.svg" alt="Linkedin" height="18" width="18" class="ml-2">
-        <a class="text-white" href="https://www.linkedin.com/in/carina-menke-a860542b/" target="_blank">Linkedin</a>
-        <img src="/images/Codepen-logo.png" alt="CodePen" height="18" width="18" class="ml-2">
-        <a class="text-white" href="https://codepen.io/carinamenke" target="_blank">CodePen</a>
-        <br><br>
-      <a class="btn btn-primary btn-md" href="#About_me" role="button">Learn more about me</a>
-    </div>
-  </div>
-</div>
+  <!-- Start of Stage Section-->
+    <!-- Stage for small screens -->
+      <div class="d-md-none bg-light pb-5">
+        <img class="img-fluid max-width: 100%; height: auto;" src="/images/CarinaMenke_small.png" alt="Carina Menke">
+          <div class="mx-3 mt-4">
+              <h2 class="h3 font-weight-light text-dark">Hi, I am Carina.</h2>
+              <p class="text-dark">As a web developer and project manager I can help you build your website or mobile app. I am available for freelance work, so if you like my portfolio, feel free to reach out to me:</p>
+                <p class="font-weight-bold text-dark">Email:<a class="text-dark font-weight-normal ml-2" href="mailto:carina-menke@email.com">carina-menke@email.com</a></p>
+                
+                <img src="/images/GitHub-Mark-64px.png" target="_blank" alt="Github" height="18" width="18">
+                <a class="text-dark" href="https://github.com/carinamenke" target="_blank">Github</a>
+                
+                <img src="/images/iconmonstr-linkedin-3.svg" alt="Linkedin" height="18" width="18" class="ml-2">
+                <a class="text-dark" href="https://www.linkedin.com/in/carina-menke-a860542b/" target="_blank">Linkedin</a>
+                
+                <img src="/images/Codepen-logo.png" alt="CodePen" height="18" width="18" class="ml-2">
+                <a class="text-dark" href="https://codepen.io/carinamenke" target="_blank">CodePen</a>
+                
+                <br><br>
+                <a class="btn btn-primary btn-md" href="#About_me" role="button">Learn more about me</a>
+          </div>
+      </div>
+      
+    <!-- Stage for larger screens -->
+      <div class="d-none d-md-block">
+        <div class="jumbotron bg-white text-white px-0" style="background-image:url('/images/CarinaMenke.png'); background-repeat:no-repeat; background-size:cover; ">
+            <div class="px-3 col-sm-9">
+              <h2 class="h3 font-weight-light">Hi, I am Carina.</h2>
+              <p>As a web developer and project manager I can help you build your website or mobile app. I am available for freelance work, so if you like my portfolio, feel free to reach out to me:</p>
+                <p class="font-weight-bold">Email:<a class="text-white font-weight-normal ml-2" href="mailto:carina-menke@email.com">carina-menke@email.com</a></p>
+                
+                <img src="/images/GitHub-Mark-64px.png" target="_blank" alt="Github" height="18" width="18">
+                <a class="text-white" href="https://github.com/carinamenke" target="_blank">Github</a>
+                
+                <img src="/images/iconmonstr-linkedin-3.svg" alt="Linkedin" height="18" width="18" class="ml-2">
+                <a class="text-white" href="https://www.linkedin.com/in/carina-menke-a860542b/" target="_blank">Linkedin</a>
+                
+                <img src="/images/Codepen-logo.png" alt="CodePen" height="18" width="18" class="ml-2">
+                <a class="text-white" href="https://codepen.io/carinamenke" target="_blank">CodePen</a>
+                
+                <br><br>
+                <a class="btn btn-primary btn-md" href="#About_me" role="button">Learn more about me</a>
+            </div>
+          </div>
+        </div>
+
   
-  <!-- <section class="container-fluid bg-white pt-2 pb-5 px-0 text-center">
-    <img class="img-fluid" src="https://images.unsplash.com/photo-1573496358007-6fe62e3d9010?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="Carina Menke">
-    <br><br>
-    <h1>Carina Menke</h1>
-    <p>I am a web developer...</p>
-    <a href="example@example.de">example@example.de</a>
-    <br>
-    <a href="https://github.com/carinamenke">Github</a>
-    <a href="https://www.linkedin.com/in/carina-menke-a860542b/">Linkedin</a>
-    <a href="https://codepen.io/carinamenke">CodePen</a>
-    <br><br>
-    <a type="button" class="btn btn-info" href="#About_me">About me</a>
-  </section> -->
 
   <!-- About me Section -->
-  <section id="About_me"class="container-fluid bg-white pb-5">
+  <section id="About_me"class="container-fluid bg-white mt-3 pb-5">
     
     <h2>About me</h2>
-    <p>After six years of solid work experience as a project manager and product owner in e-commerce, I transitioned to a web developer role. Being familiar with both the business and the technical side of digital projects, I can help you with the following:</p>
+    <p>After six years of international work experience as a project manager and product owner in e-commerce, I transitioned to a web developer role. Being familiar with both the business and the technical side of digital projects, I can help you with the following:</p>
 
       <div class="card-deck">
 
@@ -103,7 +118,7 @@
           <img src="/images/project_management.jpg" class="card-img-top" alt="Project Management">
           <div class="card-body">
             <h3>Project Management</h3>
-            <p>Agile project management frameworks such as scrum will ensure that your website or app will meet your and your users' needs.</p>
+            <p>Agile project management frameworks such as scrum will ensure that your website or app meet your and your users' needs.</p>
           </div>
         </div>
         
@@ -141,18 +156,22 @@
   
         <div class="col-md-4 mt-2">
           <h3 class="h5">Languages</h3>
+          
             <div class="progress mb-2" style="height: 20px;">
               <img src="/images/flag_de.png" alt="German" height="18" width="18" class="mr-1">
               <div class="progress-bar bg-secondary font-weight-bold" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Native speaker</div>
             </div>
+
             <div class="progress mb-2" style="height: 20px;">
               <img src="/images/flag_uk.png" alt="German" height="18" width="18" class="mr-1">
               <div class="progress-bar bg-secondary font-weight-bold" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Fluent speaker</div>
             </div>
+
             <div class="progress" style="height: 20px;">
               <img src="/images/flag_fr.png" alt="German" height="18" width="18" class="mr-1">
               <div class="progress-bar bg-secondary font-weight-bold" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Fluent speaker</div>
             </div>
+
         </div>
       </div>
 
@@ -174,6 +193,7 @@
           <a href="#" class="card-link">Find out more</a>
         </div>
       </div>
+
       <div class="card">
         <img src="/images/HugoBoss.png" class="card-img-top" alt="HugoBoss">
         <div class="card-body">
@@ -182,6 +202,7 @@
           <a href="#" class="card-link">Find out more</a>
         </div>
       </div>
+
       <div class="card">
         <img src="/images/Reference_Jacadi.png" class="card-img-top" alt="Jacadi">
         <div class="card-body">
@@ -190,6 +211,7 @@
           <a href="#" class="card-link">Find out more</a>
         </div>
       </div>
+
       <div class="card">
         <img src="/images/Reference_STIHL.png" class="card-img-top" alt="STIHL">
         <div class="card-body">
@@ -198,6 +220,7 @@
           <a href="#" class="card-link">Find out more</a>
         </div>
       </div>
+
       <div class="card">
         <img src="/images/Project_XYZ.jpg" class="card-img-top" alt="Project XYZ">
         <div class="card-body">
@@ -206,6 +229,7 @@
           <a href="#" class="card-link">Find out more</a>
         </div>
       </div>
+
       <div class="card">
         <img src="/images/Reference_PetitBateau.png" class="card-img-top" alt="Petit Bateau">
         <div class="card-body">
@@ -214,6 +238,7 @@
           <a href="#" class="card-link">Find out more</a>
         </div>
       </div>
+
     </div>
 
   </section>
@@ -233,7 +258,7 @@
               <h5 class="mb-1">E-Commerce Project Manager & Product Owner</h5>
               <small>May 2018 - Dec 2019</small>
             </div>
-            <p class="mb-1">Sub-project leader Frontend for launch of new end-customer online shop in Germany</p>
+            <p class="mb-1">Sub-project leader Frontend for launch of new B2C online shop in Germany</p>
             <small>Andreas STIHL AG & Co. KG, Fellbach - Germany</small>
           </a>
 
@@ -263,12 +288,13 @@
           <h3 class="h5">Education</h3>
           <a href="#" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
-              <h5 class="mb-1">"Neuefische Web Development Bootcamp</h5>
+              <h5 class="mb-1">"Neue Fische" Web Development Bootcamp</h5>
               <small>Jan 2020 - Mar 2020</small>
             </div>
             <p class="mb-1">Intensive web development training</p>
             <small>Neuefische GmbH, Hamburg - Germany</small>
           </a>
+
           <a href="#" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">M.Sc. Marketing</h5>
@@ -276,6 +302,7 @@
             </div>
             <small class="text-muted">Napier University, Edinburgh - Scotland</small>
           </a>
+
           <a href="#" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">B.A. Int. Management & Marketing</h5>
@@ -284,6 +311,7 @@
             <p class="mb-1">Franco-German double-degree program</p>
             <small class="text-muted">Kedge Business School, Marseille - France</small>
           </a>
+
           <a href="#" class="list-group-item list-group-item-action">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">B.A. Int. Management</h5>
@@ -292,6 +320,7 @@
             <p class="mb-1">Franco-German double-degree program</p>
             <small class="text-muted">University of Applied Sciences, Bremen - Germany</small>
           </a>
+
         </div>
       </div>
     </div>
@@ -327,14 +356,14 @@
     <small><a class="text-dark font-weight-bold float-right" href="#">Back to top &#8679;</a></small>
   </section>
 
-
-  <!-- Footer -->
-  <footer class="container-fluid bg-dark text-light py-2">
-    <small class="mr-2">&copy; 2020 Carina Menke</small>
-    <small><a class="text-light mr-2" href="#">Imprint</a></small>
-    <small><a class="text-light" href="#">Privacy Policy</a></small>
-  </footer>
 </main>
+
+<!-- Footer -->
+<footer class="container-fluid bg-dark text-light py-2">
+  <small class="mr-2">&copy; 2020 Carina Menke</small>
+  <small><a class="text-light mr-2" href="#">Imprint</a></small>
+  <small><a class="text-light" href="#">Privacy Policy</a></small>
+</footer>
 
 
 <!-- Bootstrap, jQuery & Popper.js scripts -->
